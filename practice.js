@@ -1,19 +1,15 @@
-const name = "sweta";
-let nam = 2 + 1;
-console.log("Hi how are you" + " " + name + " " + nam );
-
-
-/*function one(num1, num2, num3){
-    console.log("universal" + num1+" "+num2+" "+num3);
+function askForBeverage(age){
+    if (age > 18){
+    console.log("What Beverage would you like to have?");
+    } else {
+       console.log ("sorry the offer is only for adults");
+    }
 }
+askForBeverage(19)
 
-one(1,2);
-one(3,4);
-*/
-
-function printLabel(name, animal){
-    console.log("Hello "+name+animal);
+//print odd numbers between 1 to 100
+counter=1
+while (counter<= 100){
+    console.log("counter" + counter);
+    counter= (counter+2);
 }
-
-printLabel("Sweta", "kitten");
-printLabel("Kalyan");
