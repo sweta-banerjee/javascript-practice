@@ -12,4 +12,3 @@ while (counter >= 2) {
     console.log("count " + counter);
     counter=counter-2;
 }
-
